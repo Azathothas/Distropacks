@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
 #Source & Stolen from: https://github.com/mvaisakh/wsl-distro-tars/blob/main/wsl-tar-gen.sh
-#Usage: bash <(curl -qfsSL "")
+#Requirements: docker (Installed & Setup) + CoreUtils + Lot's of Memory, Storage & Bandwidth
+#Usage: bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Distropacks/main/.github/workflows/distropack_docker_extract_distros.sh")
 
 # Setup Dirs
 export TAR_DIR="/tmp/docker-tars"
