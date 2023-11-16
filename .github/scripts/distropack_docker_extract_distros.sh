@@ -71,7 +71,10 @@ DISTROS=(
     #https://hub.docker.com/r/amd64/oraclelinux/
     "amd64/oraclelinux:9"
     "amd64/oraclelinux:9-slim"
-
+    #https://hub.docker.com/r/arm64v8/oraclelinux
+    "arm64v8/oraclelinux:9"
+    "arm64v8/oraclelinux:9-slim"
+    
     ##rockylinux: https://hub.docker.com/_/rockylinux
     #https://hub.docker.com/r/amd64/rockylinux/
     "amd64/rockylinux:9"
@@ -79,11 +82,6 @@ DISTROS=(
     #https://hub.docker.com/r/arm64v8/rockylinux/
     "arm64v8/rockylinux:9"
     "arm64v8/rockylinux:9-minimal"
-
-    ##Oracle-Linux: https://hub.docker.com/_/oraclelinux
-    #https://hub.docker.com/r/arm64v8/oraclelinux
-    "arm64v8/oraclelinux:9"
-    "arm64v8/oraclelinux:9-slim"
     
     ##Ubuntu: https://hub.docker.com/_/ubuntu
     #https://hub.docker.com/r/amd64/ubuntu/
