@@ -87,12 +87,6 @@
 #Using wget + curl
 # Example: alpine_latest (Replace with yours)
 wget "$(curl -qfsSL "https://api.github.com/repos/Azathothas/Distropacks/releases/latest" | jq -r '.assets[] | .browser_download_url' | grep -i 'alpine_latest')"
-
-!# All Distros (7z Mega Pack)
- wget "$(curl -qfsSL "https://api.github.com/repos/Azathothas/Distropacks/releases/latest" | jq -r '.assets[] | .browser_download_url' | grep -i '.7z$')" -O "./all_distros.7z"
-# Unarchive
- 7z x "./all_distros.7z"
-# You will have all the tars for all the distros
 ```
 ---
 - #### Install
