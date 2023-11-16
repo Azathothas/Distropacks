@@ -107,23 +107,24 @@ jobs:
           find "/tmp/docker-tars" -type f -name "*.tar" -exec mv {} "/tmp/releases" \;
         continue-on-error: true
 
-      - name: 7z Everything
-        run: |
-          #Presets
-          set -x ; set +e
-          #--------------#
-          #Env
-          TOTAL_SIZE="$(du -h /tmp/releases | awk '{print $1}')" && export TOTAL_SIZE="$TOTAL_SIZE"
-          echo "TOTAL_SIZE=$TOTAL_SIZE" >> $GITHUB_ENV
-          echo "Total Pack Size: $TOTAL_SIZE"
-          SAFE_NEPALI_TIME=$(TZ='Asia/Kathmandu' date +'%Y-%m-%d_%I:%M:%S_%p' | tr ' :-' '_')
-          echo "SAFE_NEPALI_TIME=$SAFE_NEPALI_TIME" >> $GITHUB_ENV
-          #7z (Compresses ~ 10 GB --> 10 Mins)
-          7z a -r -t7z -mx="9" -mmt="$(($(nproc)+1))" "/tmp/Complete_Distropack_weekly_${{ env.SAFE_NEPALI_TIME }}.7z" "/tmp/releases"
-          #7z a -r -t7z -mx="9" -mmt="$(($(nproc)+1))" "/tmp/Complete_Distropack_weekly_$SAFE_NEPALI_TIME.7z" "/tmp/releases"
-          #Move
-          mv "/tmp/Complete_Distropack_weekly_${{ env.SAFE_NEPALI_TIME }}.7z" "/tmp/releases"
-        continue-on-error: true
+    #GH shuts this down
+    #   - name: 7z Everything
+    #     run: |
+    #       #Presets
+    #       set -x ; set +e
+    #       #--------------#
+    #       #Env
+    #       TOTAL_SIZE="$(du -h /tmp/releases | awk '{print $1}')" && export TOTAL_SIZE="$TOTAL_SIZE"
+    #       echo "TOTAL_SIZE=$TOTAL_SIZE" >> $GITHUB_ENV
+    #       echo "Total Pack Size: $TOTAL_SIZE"
+    #       SAFE_NEPALI_TIME=$(TZ='Asia/Kathmandu' date +'%Y-%m-%d_%I:%M:%S_%p' | tr ' :-' '_')
+    #       echo "SAFE_NEPALI_TIME=$SAFE_NEPALI_TIME" >> $GITHUB_ENV
+    #       #7z (Compresses ~ 10 GB --> 10 Mins)
+    #       7z a -r -t7z -mx="9" -mmt="$(($(nproc)+1))" "/tmp/Complete_Distropack_weekly_${{ env.SAFE_NEPALI_TIME }}.7z" "/tmp/releases"
+    #       #7z a -r -t7z -mx="9" -mmt="$(($(nproc)+1))" "/tmp/Complete_Distropack_weekly_$SAFE_NEPALI_TIME.7z" "/tmp/releases"
+    #       #Move
+    #       mv "/tmp/Complete_Distropack_weekly_${{ env.SAFE_NEPALI_TIME }}.7z" "/tmp/releases"
+    #     continue-on-error: true
 
       - name: Update Readme.md
         run: |
