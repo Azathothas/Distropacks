@@ -3,8 +3,8 @@ name: 🛍️ Publish ⚙️ Weekly 📦DistroPacks🗄️
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * 0" #  12:00 AM UTC Every Sunday (05:45 AM Morning Nepal) 
-  
+    #- cron: "0 0 * * 0" #  12:00 AM UTC Every Sunday (05:45 AM Morning Nepal) 
+    - cron: "0 0 */6 * *" #Every 6 days
 env:
   GITHUB_TOKEN: ${{ secrets.DISTROPACKS }}
   
