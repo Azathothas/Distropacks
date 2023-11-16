@@ -243,39 +243,104 @@
 > ```
 > ---
 > - [**`OpenSuSe`**](https://www.opensuse.org/) --> [Distrowatch](https://distrowatch.com/table.php?distribution=opensuse)
-##OpenSuse: https://hub.docker.com/_/opensuse
-#https://hub.docker.com/r/opensuse/leap
-"opensuse/leap"
-#https://hub.docker.com/r/opensuse/tumbleweed
-"opensuse/tumbleweed"
-
-> - [**`Oracle Linux`**](https://www.oracle.com/linux/) --> [Distrowatch](https://distrowatch.com/table.php?distribution=oracle)
-##oraclelinux: https://hub.docker.com/_/oraclelinux
-#https://hub.docker.com/r/amd64/oraclelinux/
-"amd64/oraclelinux:9"
-"amd64/oraclelinux:9-slim"
-#https://hub.docker.com/r/arm64v8/oraclelinux
-"arm64v8/oraclelinux:9"
-"arm64v8/oraclelinux:9-slim"
-
-> - [**`Rocky Linux`**](https://rockylinux.org/) --> [Distrowatch](https://distrowatch.com/table.php?distribution=rocky)
-##rockylinux: https://hub.docker.com/_/rockylinux
-#https://hub.docker.com/r/amd64/rockylinux/
-"amd64/rockylinux:9"
-"amd64/rockylinux:9-minimal"
-#https://hub.docker.com/r/arm64v8/rockylinux/
-"arm64v8/rockylinux:9"
-"arm64v8/rockylinux:9-minimal"
-
-> - [**`Ubuntu`**](https://ubuntu.com/) --> [Distrowatch](https://distrowatch.com/table.php?distribution=ubuntu)
-##Ubuntu: https://hub.docker.com/_/ubuntu
-#https://hub.docker.com/r/amd64/ubuntu/
-"amd64/ubuntu:latest" #latest = 22.04
-#https://hub.docker.com/r/arm64v8/ubuntu
-"arm64v8/ubuntu:latest" #latest = 22.04
-
+> ```bash
+>            .;ldkO0000Okdl;.             
+>        .;d00xl:^''''''^:ok00d;.          
+>      .d00l'                'o00d.        
+>    .d0Kd'  Okxol:;,.          :O0d.      
+>   .OKKKK0kOKKKKKKKKKKOxo:,      lKO.     
+>  ,0KKKKKKKKKKKKKKKK0P^,,,^dx:    ;00,    
+> .OKKKKKKKKKKKKKKKKk'.oOPPb.'0k.   cKO.   
+> :KKKKKKKKKKKKKKKKK: kKx..dd lKd   'OK:   
+> dKKKKKKKKKKKOx0KKKd ^0KKKO' kKKc   dKd   
+> dKKKKKKKKKKKK;.;oOKx,..^..;kKKK0.  dKd
+> :KKKKKKKKKKKK0o;...^cdxxOK0O/^^'  .0K:
+>  kKKKKKKKKKKKKKKK0x;,,......,;od  lKk
+>  '0KKKKKKKKKKKKKKKKKKKKK00KKOo^  c00'
+>   'kKKKOxddxkOO00000Okxoc;''   .dKk'
+>     l0Ko.                    .c00l'
+>      'l0Kk:.              .;xK0l'
+>         'lkK0xl:;,,,,;:ldO0kl'
+>             '^:ldxkkkkxdl:^'
+> 
+> ```
+> ```yaml
+> ##OpenSuse: https://hub.docker.com/_/opensuse
+> #https://hub.docker.com/r/opensuse/leap
+> "opensuse/leap"
+> #https://hub.docker.com/r/opensuse/tumbleweed
+> "opensuse/tumbleweed"
+> ```
 > ---
-```
+> - [**`Oracle Linux`**](https://www.oracle.com/linux/) --> [Distrowatch](https://distrowatch.com/table.php?distribution=oracle)
+> ```bash
+>       `-/+++++++++++++++++/-.`
+>    `/syyyyyyyyyyyyyyyyyyyyyyys/.
+>   :yyyyo/-...............-/oyyyy/
+>  /yyys-                     .oyyy+
+> .yyyy`                       `syyy-
+> :yyyo                         /yyy/
+> .yyyy`                       `syyy-
+>  /yyys.                     .oyyyo
+>   /yyyyo:-...............-:oyyyy/`
+>    `/syyyyyyyyyyyyyyyyyyyyyyys+.
+>      `.:/+ooooooooooooooo+/:.`
+> 
+> ```
+> ```yaml
+> ##oraclelinux: https://hub.docker.com/_/oraclelinux
+> #https://hub.docker.com/r/amd64/oraclelinux/
+> "amd64/oraclelinux:9"
+> "amd64/oraclelinux:9-slim"
+> #https://hub.docker.com/r/arm64v8/oraclelinux
+> "arm64v8/oraclelinux:9"
+> "arm64v8/oraclelinux:9-slim"
+> ```
+> ---
+> - [**`Rocky Linux`**](https://rockylinux.org/) --> [Distrowatch](https://distrowatch.com/table.php?distribution=rocky)
+> ```bash
+>        `-/+++++++++/-.`
+>     `-+++++++++++++++++-`
+>    .+++++++++++++++++++++.
+>    -+++++++++++++++++++++++.
+>    +++++++++++++++/-/+++++++
+>    +++++++++++++/.   ./+++++
+>    +++++++++++:.       ./+++
+>    +++++++++:`   `:/:`   .:/
+>    -++++++:`   .:+++++:`
+>     .+++-`   ./+++++++++:`
+>      `-`   ./+++++++++++-
+>           -+++++++++:-.`
+> 
+> ```
+> ```yaml
+> ##rockylinux: https://hub.docker.com/_/rockylinux
+> #https://hub.docker.com/r/amd64/rockylinux/
+> "amd64/rockylinux:9"
+> "amd64/rockylinux:9-minimal"
+> #https://hub.docker.com/r/arm64v8/rockylinux/
+> "arm64v8/rockylinux:9"
+> "arm64v8/rockylinux:9-minimal"
+> ```
+> ---
+> - [**`Ubuntu`**](https://ubuntu.com/) --> [Distrowatch](https://distrowatch.com/table.php?distribution=ubuntu)
+> ```bash
+>          _
+>      ---(_)
+>  _/  ---  \
+> (_) |   |
+>   \  --- _/
+>      ---(_)
+> 
+> ```
+> ```yaml
+> ##Ubuntu: https://hub.docker.com/_/ubuntu
+> #https://hub.docker.com/r/amd64/ubuntu/
+> "amd64/ubuntu:latest" #latest = 22.04
+> #https://hub.docker.com/r/arm64v8/ubuntu
+> "arm64v8/ubuntu:latest" #latest = 22.04
+> ```
+> ---
 ---
 - #### Download
 ```bash
