@@ -200,7 +200,7 @@ jobs:
           #push_options: '--force'          
 
       - name: Releaser
-        uses: softprops/action-gh-release@v2.0.3
+        uses: softprops/action-gh-release@v2.0.4
         with:
           name: "DistroPacks Weekly ${{ env.SAFE_NEPALI_TIME }}"
           tag_name: "distropacks_weekly_${{ env.SAFE_NEPALI_TIME }}"
