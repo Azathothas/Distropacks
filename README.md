@@ -363,7 +363,7 @@ wget "$(curl -qfsSL "https://api.github.com/repos/Azathothas/Distropacks/release
 
 ----------------------------------------------------------
 [+] amd64/almalinux:latest
-7c4e126830f8
+7c944c1c126e
 NAME="AlmaLinux"
 VERSION="9.4 (Seafoam Ocelot)"
 ID="almalinux"
@@ -383,14 +383,14 @@ ALMALINUX_MANTISBT_PROJECT_VERSION="9.4"
 REDHAT_SUPPORT_PRODUCT="AlmaLinux"
 REDHAT_SUPPORT_PRODUCT_VERSION="9.4"
 SUPPORT_END=2032-06-01
-Linux 7c4e126830f8 6.5.0-1023-azure #24~22.04.1-Ubuntu SMP Wed Jun 12 19:55:26 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+Linux 7c944c1c126e 6.5.0-1024-azure #25~22.04.1-Ubuntu SMP Mon Jun 17 18:38:57 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
 [✓] File: amd64_almalinux_latest-docker_exported.tar
 ----------------------------------------------------------
 
 
 ----------------------------------------------------------
 [+] arm64v8/almalinux:latest
-05faf39e4a2f
+765f658d7840
 NAME="AlmaLinux"
 VERSION="9.4 (Seafoam Ocelot)"
 ID="almalinux"
@@ -410,35 +410,35 @@ ALMALINUX_MANTISBT_PROJECT_VERSION="9.4"
 REDHAT_SUPPORT_PRODUCT="AlmaLinux"
 REDHAT_SUPPORT_PRODUCT_VERSION="9.4"
 SUPPORT_END=2032-06-01
-Linux 05faf39e4a2f 6.5.0-1023-azure #24~22.04.1-Ubuntu SMP Wed Jun 12 19:55:26 UTC 2024 aarch64 aarch64 aarch64 GNU/Linux
+Linux 765f658d7840 6.5.0-1024-azure #25~22.04.1-Ubuntu SMP Mon Jun 17 18:38:57 UTC 2024 aarch64 aarch64 aarch64 GNU/Linux
 [✓] File: arm64v8_almalinux_latest-docker_exported.tar
 ----------------------------------------------------------
 
 
 ----------------------------------------------------------
 [+] amd64/alpine:latest
-8ee0b00d349e
+57660106877e
 NAME="Alpine Linux"
 ID=alpine
-VERSION_ID=3.20.1
+VERSION_ID=3.20.2
 PRETTY_NAME="Alpine Linux v3.20"
 HOME_URL="https://alpinelinux.org/"
 BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"
-Linux 8ee0b00d349e 6.5.0-1023-azure #24~22.04.1-Ubuntu SMP Wed Jun 12 19:55:26 UTC 2024 x86_64 Linux
+Linux 57660106877e 6.5.0-1024-azure #25~22.04.1-Ubuntu SMP Mon Jun 17 18:38:57 UTC 2024 x86_64 Linux
 [✓] File: amd64_alpine_latest-docker_exported.tar
 ----------------------------------------------------------
 
 
 ----------------------------------------------------------
 [+] arm64v8/alpine:latest
-ef2ca16cf290
+2951e6548a96
 NAME="Alpine Linux"
 ID=alpine
-VERSION_ID=3.20.1
+VERSION_ID=3.20.2
 PRETTY_NAME="Alpine Linux v3.20"
 HOME_URL="https://alpinelinux.org/"
 BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"
-Linux ef2ca16cf290 6.5.0-1023-azure #24~22.04.1-Ubuntu SMP Wed Jun 12 19:55:26 UTC 2024 aarch64 Linux
+Linux 2951e6548a96 6.5.0-1024-azure #25~22.04.1-Ubuntu SMP Mon Jun 17 18:38:57 UTC 2024 aarch64 Linux
 [✓] File: arm64v8_alpine_latest-docker_exported.tar
 ----------------------------------------------------------
 
@@ -461,7 +461,7 @@ BUG_REPORT_URL="https://github.com/amazonlinux/amazon-linux-2023"
 VENDOR_NAME="AWS"
 VENDOR_URL="https://aws.amazon.com/"
 SUPPORT_END="2028-03-15"
-Linux 81eb8026ccb5 6.5.0-1023-azure #24~22.04.1-Ubuntu SMP Wed Jun 12 19:55:26 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+Linux 5bf6a8627d6f 6.5.0-1024-azure #25~22.04.1-Ubuntu SMP Mon Jun 17 18:38:57 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
 [✓] File: amd64_amazonlinux_latest-docker_exported.tar
 ----------------------------------------------------------
 
@@ -484,7 +484,7 @@ BUG_REPORT_URL="https://github.com/amazonlinux/amazon-linux-2023"
 VENDOR_NAME="AWS"
 VENDOR_URL="https://aws.amazon.com/"
 SUPPORT_END="2028-03-15"
-Linux 926c9e816a4c 6.5.0-1023-azure #24~22.04.1-Ubuntu SMP Wed Jun 12 19:55:26 UTC 2024 aarch64 aarch64 aarch64 GNU/Linux
+Linux 47ecf0ab3faf 6.5.0-1024-azure #25~22.04.1-Ubuntu SMP Mon Jun 17 18:38:57 UTC 2024 aarch64 aarch64 aarch64 GNU/Linux
 [✓] File: arm64v8_amazonlinux_latest-docker_exported.tar
 ----------------------------------------------------------
 
@@ -495,7 +495,7 @@ NAME="Arch Linux"
 PRETTY_NAME="Arch Linux"
 ID=arch
 BUILD_ID=rolling
-VERSION_ID=20240714.0.246936
+VERSION_ID=20240721.0.248532
 ANSI_COLOR="38;2;23;147;209"
 HOME_URL="https://archlinux.org/"
 DOCUMENTATION_URL="https://wiki.archlinux.org/"
@@ -503,34 +503,34 @@ SUPPORT_URL="https://bbs.archlinux.org/"
 BUG_REPORT_URL="https://gitlab.archlinux.org/groups/archlinux/-/issues"
 PRIVACY_POLICY_URL="https://terms.archlinux.org/docs/privacy-policy/"
 LOGO=archlinux-logo
-Linux 286b15aa7802 6.5.0-1023-azure #24~22.04.1-Ubuntu SMP Wed Jun 12 19:55:26 UTC 2024 x86_64 GNU/Linux
+Linux 2bdc4fc2cc2f 6.5.0-1024-azure #25~22.04.1-Ubuntu SMP Mon Jun 17 18:38:57 UTC 2024 x86_64 GNU/Linux
 [✓] File: amd64_archlinux_latest-docker_exported.tar
 ----------------------------------------------------------
 
 
 ----------------------------------------------------------
 [+] amd64/clearlinux:latest
-434954f855ff
+b5b80f9b5599
 NAME="Clear Linux OS"
 VERSION=1
 ID=clear-linux-os
 ID_LIKE=clear-linux-os
-VERSION_ID=42030
+VERSION_ID=42080
 PRETTY_NAME="Clear Linux OS"
 ANSI_COLOR="1;35"
 HOME_URL="https://clearlinux.org"
 SUPPORT_URL="https://clearlinux.org"
 BUG_REPORT_URL="mailto:dev@clearlinux.discoursemail.com"
 PRIVACY_POLICY_URL="http://www.intel.com/privacy"
-BUILD_ID=42030
-Linux 434954f855ff 6.5.0-1023-azure #24~22.04.1-Ubuntu SMP Wed Jun 12 19:55:26 UTC 2024 x86_64 GNU/Linux
+BUILD_ID=42080
+Linux b5b80f9b5599 6.5.0-1024-azure #25~22.04.1-Ubuntu SMP Mon Jun 17 18:38:57 UTC 2024 x86_64 GNU/Linux
 [✓] File: amd64_clearlinux_latest-docker_exported.tar
 ----------------------------------------------------------
 
 
 ----------------------------------------------------------
 [+] amd64/debian:latest
-38f51301ccdd
+d9447cd41806
 PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"
 NAME="Debian GNU/Linux"
 VERSION_ID="12"
@@ -540,14 +540,14 @@ ID=debian
 HOME_URL="https://www.debian.org/"
 SUPPORT_URL="https://www.debian.org/support"
 BUG_REPORT_URL="https://bugs.debian.org/"
-Linux 38f51301ccdd 6.5.0-1023-azure #24~22.04.1-Ubuntu SMP Wed Jun 12 19:55:26 UTC 2024 x86_64 GNU/Linux
+Linux d9447cd41806 6.5.0-1024-azure #25~22.04.1-Ubuntu SMP Mon Jun 17 18:38:57 UTC 2024 x86_64 GNU/Linux
 [✓] File: amd64_debian_latest-docker_exported.tar
 ----------------------------------------------------------
 
 
 ----------------------------------------------------------
 [+] arm64v8/debian:latest
-164033dd43ff
+e28f2dd46484
 PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"
 NAME="Debian GNU/Linux"
 VERSION_ID="12"
@@ -557,7 +557,7 @@ ID=debian
 HOME_URL="https://www.debian.org/"
 SUPPORT_URL="https://www.debian.org/support"
 BUG_REPORT_URL="https://bugs.debian.org/"
-Linux 164033dd43ff 6.5.0-1023-azure #24~22.04.1-Ubuntu SMP Wed Jun 12 19:55:26 UTC 2024 aarch64 GNU/Linux
+Linux e28f2dd46484 6.5.0-1024-azure #25~22.04.1-Ubuntu SMP Mon Jun 17 18:38:57 UTC 2024 aarch64 GNU/Linux
 [✓] File: arm64v8_debian_latest-docker_exported.tar
 ----------------------------------------------------------
 
@@ -586,7 +586,7 @@ REDHAT_SUPPORT_PRODUCT_VERSION=40
 SUPPORT_END=2025-05-13
 VARIANT="Container Image"
 VARIANT_ID=container
-Linux e5eae12537f3 6.5.0-1023-azure #24~22.04.1-Ubuntu SMP Wed Jun 12 19:55:26 UTC 2024 x86_64 GNU/Linux
+Linux 87308e32d739 6.5.0-1024-azure #25~22.04.1-Ubuntu SMP Mon Jun 17 18:38:57 UTC 2024 x86_64 GNU/Linux
 [✓] File: amd64_fedora_latest-docker_exported.tar
 ----------------------------------------------------------
 
@@ -615,7 +615,7 @@ REDHAT_SUPPORT_PRODUCT_VERSION=rawhide
 SUPPORT_END=2025-05-13
 VARIANT="Container Image"
 VARIANT_ID=container
-Linux 84ab1c4bcb10 6.5.0-1023-azure #24~22.04.1-Ubuntu SMP Wed Jun 12 19:55:26 UTC 2024 x86_64 GNU/Linux
+Linux 6a0ba2f4c15b 6.5.0-1024-azure #25~22.04.1-Ubuntu SMP Mon Jun 17 18:38:57 UTC 2024 x86_64 GNU/Linux
 [✓] File: amd64_fedora_rawhide-docker_exported.tar
 ----------------------------------------------------------
 
@@ -644,7 +644,7 @@ REDHAT_SUPPORT_PRODUCT_VERSION=40
 SUPPORT_END=2025-05-13
 VARIANT="Container Image"
 VARIANT_ID=container
-Linux 7029cccb99e8 6.5.0-1023-azure #24~22.04.1-Ubuntu SMP Wed Jun 12 19:55:26 UTC 2024 aarch64 GNU/Linux
+Linux 307e83c8d72e 6.5.0-1024-azure #25~22.04.1-Ubuntu SMP Mon Jun 17 18:38:57 UTC 2024 aarch64 GNU/Linux
 [✓] File: arm64v8_fedora_latest-docker_exported.tar
 ----------------------------------------------------------
 
@@ -673,14 +673,14 @@ REDHAT_SUPPORT_PRODUCT_VERSION=rawhide
 SUPPORT_END=2025-05-13
 VARIANT="Container Image"
 VARIANT_ID=container
-Linux 977344b6729f 6.5.0-1023-azure #24~22.04.1-Ubuntu SMP Wed Jun 12 19:55:26 UTC 2024 aarch64 GNU/Linux
+Linux 1fa2cebda76d 6.5.0-1024-azure #25~22.04.1-Ubuntu SMP Mon Jun 17 18:38:57 UTC 2024 aarch64 GNU/Linux
 [✓] File: arm64v8_fedora_rawhide-docker_exported.tar
 ----------------------------------------------------------
 
 
 ----------------------------------------------------------
 [+] gentoo/stage3:latest
-766b1b7a6ab8
+303ff2826a13
 NAME=Gentoo
 ID=gentoo
 PRETTY_NAME="Gentoo Linux"
@@ -689,14 +689,14 @@ HOME_URL="https://www.gentoo.org/"
 SUPPORT_URL="https://www.gentoo.org/support/"
 BUG_REPORT_URL="https://bugs.gentoo.org/"
 VERSION_ID="2.15"
-Linux 766b1b7a6ab8 6.5.0-1023-azure #24~22.04.1-Ubuntu SMP Wed Jun 12 19:55:26 UTC 2024 x86_64 AMD EPYC 7763 64-Core Processor AuthenticAMD GNU/Linux
+Linux 303ff2826a13 6.5.0-1024-azure #25~22.04.1-Ubuntu SMP Mon Jun 17 18:38:57 UTC 2024 x86_64 AMD EPYC 7763 64-Core Processor AuthenticAMD GNU/Linux
 [✓] File: gentoo_stage3_latest-docker_exported.tar
 ----------------------------------------------------------
 
 
 ----------------------------------------------------------
 [+] gentoo/stage3:systemd
-a2b4de4b8871
+bb762ee48634
 NAME=Gentoo
 ID=gentoo
 PRETTY_NAME="Gentoo Linux"
@@ -705,14 +705,14 @@ HOME_URL="https://www.gentoo.org/"
 SUPPORT_URL="https://www.gentoo.org/support/"
 BUG_REPORT_URL="https://bugs.gentoo.org/"
 VERSION_ID="2.15"
-Linux a2b4de4b8871 6.5.0-1023-azure #24~22.04.1-Ubuntu SMP Wed Jun 12 19:55:26 UTC 2024 x86_64 AMD EPYC 7763 64-Core Processor AuthenticAMD GNU/Linux
+Linux bb762ee48634 6.5.0-1024-azure #25~22.04.1-Ubuntu SMP Mon Jun 17 18:38:57 UTC 2024 x86_64 AMD EPYC 7763 64-Core Processor AuthenticAMD GNU/Linux
 [✓] File: gentoo_stage3_systemd-docker_exported.tar
 ----------------------------------------------------------
 
 
 ----------------------------------------------------------
 [+] kalilinux/kali-rolling:amd64
-530936420ffc
+452be4caed5e
 PRETTY_NAME="Kali GNU/Linux Rolling"
 NAME="Kali GNU/Linux"
 VERSION_ID="2024.2"
@@ -724,14 +724,14 @@ HOME_URL="https://www.kali.org/"
 SUPPORT_URL="https://forums.kali.org/"
 BUG_REPORT_URL="https://bugs.kali.org/"
 ANSI_COLOR="1;31"
-Linux 530936420ffc 6.5.0-1023-azure #24~22.04.1-Ubuntu SMP Wed Jun 12 19:55:26 UTC 2024 x86_64 GNU/Linux
+Linux 452be4caed5e 6.5.0-1024-azure #25~22.04.1-Ubuntu SMP Mon Jun 17 18:38:57 UTC 2024 x86_64 GNU/Linux
 [✓] File: kalilinux_kali_rolling_amd64-docker_exported.tar
 ----------------------------------------------------------
 
 
 ----------------------------------------------------------
 [+] kalilinux/kali-rolling:arm64
-6030d61b7d89
+873173edb96a
 PRETTY_NAME="Kali GNU/Linux Rolling"
 NAME="Kali GNU/Linux"
 VERSION_ID="2024.2"
@@ -743,7 +743,7 @@ HOME_URL="https://www.kali.org/"
 SUPPORT_URL="https://forums.kali.org/"
 BUG_REPORT_URL="https://bugs.kali.org/"
 ANSI_COLOR="1;31"
-Linux 6030d61b7d89 6.5.0-1023-azure #24~22.04.1-Ubuntu SMP Wed Jun 12 19:55:26 UTC 2024 aarch64 GNU/Linux
+Linux 873173edb96a 6.5.0-1024-azure #25~22.04.1-Ubuntu SMP Mon Jun 17 18:38:57 UTC 2024 aarch64 GNU/Linux
 [✓] File: kalilinux_kali_rolling_arm64-docker_exported.tar
 ----------------------------------------------------------
 
@@ -762,7 +762,7 @@ BUG_REPORT_URL="https://bugs.opensuse.org"
 HOME_URL="https://www.opensuse.org/"
 DOCUMENTATION_URL="https://en.opensuse.org/Portal:Leap"
 LOGO="distributor-logo-Leap"
-Linux 0a9a795ee285 6.5.0-1023-azure #24~22.04.1-Ubuntu SMP Wed Jun 12 19:55:26 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+Linux c2fe92b06a1f 6.5.0-1024-azure #25~22.04.1-Ubuntu SMP Mon Jun 17 18:38:57 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
 [✓] File: opensuse_leap-docker_exported.tar
 ----------------------------------------------------------
 
@@ -785,7 +785,7 @@ SUPPORT_URL="https://bugs.opensuse.org"
 HOME_URL="https://www.opensuse.org"
 DOCUMENTATION_URL="https://en.opensuse.org/Portal:Tumbleweed"
 LOGO="distributor-logo-Tumbleweed"
-Linux bb546dd6c541 6.5.0-1023-azure #24~22.04.1-Ubuntu SMP Wed Jun 12 19:55:26 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+Linux 728b4ff05661 6.5.0-1024-azure #25~22.04.1-Ubuntu SMP Mon Jun 17 18:38:57 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
 [✓] File: opensuse_tumbleweed-docker_exported.tar
 ----------------------------------------------------------
 
@@ -810,7 +810,7 @@ ORACLE_BUGZILLA_PRODUCT="Oracle Linux 9"
 ORACLE_BUGZILLA_PRODUCT_VERSION=9.4
 ORACLE_SUPPORT_PRODUCT="Oracle Linux"
 ORACLE_SUPPORT_PRODUCT_VERSION=9.4
-Linux cccecb2ac077 6.5.0-1023-azure #24~22.04.1-Ubuntu SMP Wed Jun 12 19:55:26 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+Linux e4c2d291d484 6.5.0-1024-azure #25~22.04.1-Ubuntu SMP Mon Jun 17 18:38:57 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
 [✓] File: amd64_oraclelinux_9-docker_exported.tar
 ----------------------------------------------------------
 
@@ -835,7 +835,7 @@ ORACLE_BUGZILLA_PRODUCT="Oracle Linux 9"
 ORACLE_BUGZILLA_PRODUCT_VERSION=9.4
 ORACLE_SUPPORT_PRODUCT="Oracle Linux"
 ORACLE_SUPPORT_PRODUCT_VERSION=9.4
-Linux dba77a43c31a 6.5.0-1023-azure #24~22.04.1-Ubuntu SMP Wed Jun 12 19:55:26 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+Linux fd99e45577ef 6.5.0-1024-azure #25~22.04.1-Ubuntu SMP Mon Jun 17 18:38:57 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
 [✓] File: amd64_oraclelinux_9_slim-docker_exported.tar
 ----------------------------------------------------------
 
@@ -860,7 +860,7 @@ ORACLE_BUGZILLA_PRODUCT="Oracle Linux 9"
 ORACLE_BUGZILLA_PRODUCT_VERSION=9.4
 ORACLE_SUPPORT_PRODUCT="Oracle Linux"
 ORACLE_SUPPORT_PRODUCT_VERSION=9.4
-Linux 96155c40ac7d 6.5.0-1023-azure #24~22.04.1-Ubuntu SMP Wed Jun 12 19:55:26 UTC 2024 aarch64 aarch64 aarch64 GNU/Linux
+Linux 11b67e38111b 6.5.0-1024-azure #25~22.04.1-Ubuntu SMP Mon Jun 17 18:38:57 UTC 2024 aarch64 aarch64 aarch64 GNU/Linux
 [✓] File: arm64v8_oraclelinux_9-docker_exported.tar
 ----------------------------------------------------------
 
@@ -885,14 +885,14 @@ ORACLE_BUGZILLA_PRODUCT="Oracle Linux 9"
 ORACLE_BUGZILLA_PRODUCT_VERSION=9.4
 ORACLE_SUPPORT_PRODUCT="Oracle Linux"
 ORACLE_SUPPORT_PRODUCT_VERSION=9.4
-Linux 16f70ef701fb 6.5.0-1023-azure #24~22.04.1-Ubuntu SMP Wed Jun 12 19:55:26 UTC 2024 aarch64 aarch64 aarch64 GNU/Linux
+Linux 5bfa29a8fe1f 6.5.0-1024-azure #25~22.04.1-Ubuntu SMP Mon Jun 17 18:38:57 UTC 2024 aarch64 aarch64 aarch64 GNU/Linux
 [✓] File: arm64v8_oraclelinux_9_slim-docker_exported.tar
 ----------------------------------------------------------
 
 
 ----------------------------------------------------------
 [+] amd64/rockylinux:9
-d458e6cb1d9e
+521cf9e938da
 NAME="Rocky Linux"
 VERSION="9.3 (Blue Onyx)"
 ID="rocky"
@@ -910,7 +910,7 @@ ROCKY_SUPPORT_PRODUCT="Rocky-Linux-9"
 ROCKY_SUPPORT_PRODUCT_VERSION="9.3"
 REDHAT_SUPPORT_PRODUCT="Rocky Linux"
 REDHAT_SUPPORT_PRODUCT_VERSION="9.3"
-Linux d458e6cb1d9e 6.5.0-1023-azure #24~22.04.1-Ubuntu SMP Wed Jun 12 19:55:26 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+Linux 521cf9e938da 6.5.0-1024-azure #25~22.04.1-Ubuntu SMP Mon Jun 17 18:38:57 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
 [✓] File: amd64_rockylinux_9-docker_exported.tar
 ----------------------------------------------------------
 
@@ -934,14 +934,14 @@ ROCKY_SUPPORT_PRODUCT="Rocky-Linux-9"
 ROCKY_SUPPORT_PRODUCT_VERSION="9.3"
 REDHAT_SUPPORT_PRODUCT="Rocky Linux"
 REDHAT_SUPPORT_PRODUCT_VERSION="9.3"
-Linux fd62d708e7fe 6.5.0-1023-azure #24~22.04.1-Ubuntu SMP Wed Jun 12 19:55:26 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+Linux 9a0eb70f57c4 6.5.0-1024-azure #25~22.04.1-Ubuntu SMP Mon Jun 17 18:38:57 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
 [✓] File: amd64_rockylinux_9_minimal-docker_exported.tar
 ----------------------------------------------------------
 
 
 ----------------------------------------------------------
 [+] arm64v8/rockylinux:9
-3cc46a6c4f3c
+6b87082b1ed6
 NAME="Rocky Linux"
 VERSION="9.3 (Blue Onyx)"
 ID="rocky"
@@ -959,7 +959,7 @@ ROCKY_SUPPORT_PRODUCT="Rocky-Linux-9"
 ROCKY_SUPPORT_PRODUCT_VERSION="9.3"
 REDHAT_SUPPORT_PRODUCT="Rocky Linux"
 REDHAT_SUPPORT_PRODUCT_VERSION="9.3"
-Linux 3cc46a6c4f3c 6.5.0-1023-azure #24~22.04.1-Ubuntu SMP Wed Jun 12 19:55:26 UTC 2024 aarch64 aarch64 aarch64 GNU/Linux
+Linux 6b87082b1ed6 6.5.0-1024-azure #25~22.04.1-Ubuntu SMP Mon Jun 17 18:38:57 UTC 2024 aarch64 aarch64 aarch64 GNU/Linux
 [✓] File: arm64v8_rockylinux_9-docker_exported.tar
 ----------------------------------------------------------
 
@@ -983,14 +983,14 @@ ROCKY_SUPPORT_PRODUCT="Rocky-Linux-9"
 ROCKY_SUPPORT_PRODUCT_VERSION="9.3"
 REDHAT_SUPPORT_PRODUCT="Rocky Linux"
 REDHAT_SUPPORT_PRODUCT_VERSION="9.3"
-Linux a572c0ce016e 6.5.0-1023-azure #24~22.04.1-Ubuntu SMP Wed Jun 12 19:55:26 UTC 2024 aarch64 aarch64 aarch64 GNU/Linux
+Linux 9762670ec5ec 6.5.0-1024-azure #25~22.04.1-Ubuntu SMP Mon Jun 17 18:38:57 UTC 2024 aarch64 aarch64 aarch64 GNU/Linux
 [✓] File: arm64v8_rockylinux_9_minimal-docker_exported.tar
 ----------------------------------------------------------
 
 
 ----------------------------------------------------------
 [+] amd64/ubuntu:latest
-b85df8551f44
+9ddc595690ae
 PRETTY_NAME="Ubuntu 24.04 LTS"
 NAME="Ubuntu"
 VERSION_ID="24.04"
@@ -1004,14 +1004,14 @@ BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
 PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
 UBUNTU_CODENAME=noble
 LOGO=ubuntu-logo
-Linux b85df8551f44 6.5.0-1023-azure #24~22.04.1-Ubuntu SMP Wed Jun 12 19:55:26 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+Linux 9ddc595690ae 6.5.0-1024-azure #25~22.04.1-Ubuntu SMP Mon Jun 17 18:38:57 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
 [✓] File: amd64_ubuntu_latest-docker_exported.tar
 ----------------------------------------------------------
 
 
 ----------------------------------------------------------
 [+] arm64v8/ubuntu:latest
-6fb8ab370cb1
+77d9d9a7e3ed
 PRETTY_NAME="Ubuntu 24.04 LTS"
 NAME="Ubuntu"
 VERSION_ID="24.04"
@@ -1025,7 +1025,7 @@ BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
 PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
 UBUNTU_CODENAME=noble
 LOGO=ubuntu-logo
-Linux 6fb8ab370cb1 6.5.0-1023-azure #24~22.04.1-Ubuntu SMP Wed Jun 12 19:55:26 UTC 2024 aarch64 aarch64 aarch64 GNU/Linux
+Linux 77d9d9a7e3ed 6.5.0-1024-azure #25~22.04.1-Ubuntu SMP Mon Jun 17 18:38:57 UTC 2024 aarch64 aarch64 aarch64 GNU/Linux
 [✓] File: arm64v8_ubuntu_latest-docker_exported.tar
 ----------------------------------------------------------
 
@@ -1063,36 +1063,36 @@ opensuse_leap-docker_exported.tar --> 116M
 opensuse_tumbleweed-docker_exported.tar --> 96M
 
 [+] sha256sum
-eca571a3db2f550acb0c935cf76a76a452ae70f18d4ef1c111d66493ac250259  /tmp/docker-tars/amd64_almalinux_latest-docker_exported.tar
-576b272c244aae5c2722513567d97f89e1d4413129655c30ba258123e26061dd  /tmp/docker-tars/amd64_alpine_latest-docker_exported.tar
-7d84ca6794f825941758f36d9381823b8229507a236836fc3e17086e510783e7  /tmp/docker-tars/amd64_amazonlinux_latest-docker_exported.tar
-4b9b5a0cb5a52cf8d533d1c525f7ea3f8d376e2f76f60a1e0ad0c1aebc364973  /tmp/docker-tars/amd64_archlinux_latest-docker_exported.tar
-131367191f1d62bae369f6c455e41c61169484d4c5ac94b00099c46a79e31580  /tmp/docker-tars/amd64_clearlinux_latest-docker_exported.tar
-c9317a6088faa56992aef55147270f0f82f5ad5b99b3cc5a498287c1952c4208  /tmp/docker-tars/amd64_debian_latest-docker_exported.tar
-59c8f88f577702d7803d28ec4c3047f628c79e38ed87d2293655951f3f0a0b25  /tmp/docker-tars/amd64_fedora_latest-docker_exported.tar
-161079298579cb9f856a2c63e444fee7647ac2b4a4be7a8d1d66ff45cdf3a9e9  /tmp/docker-tars/amd64_fedora_rawhide-docker_exported.tar
-336c21809dbc902acd2d40cbc947238a0cd2078a5b36117e32dd16beebfe6114  /tmp/docker-tars/amd64_oraclelinux_9-docker_exported.tar
-7bae9e87d91ac9e45f28ca45de91f6c9892849ff4d5a085315a41e580041c89d  /tmp/docker-tars/amd64_oraclelinux_9_slim-docker_exported.tar
-256bddcfb8371380b40456fe0110fe981721bee0feaa90a229efad565f21729c  /tmp/docker-tars/amd64_rockylinux_9-docker_exported.tar
-2a5715321217f4cffcb8a2823dee3f666d15251550c49245ff02343dcef2766f  /tmp/docker-tars/amd64_rockylinux_9_minimal-docker_exported.tar
-2f24f30252bca1ef6ee5ff91595256b64446520c64777046a899ec367454813e  /tmp/docker-tars/amd64_ubuntu_latest-docker_exported.tar
-57b3748b004b498db5824da1c558058702aee09fff8702cf1fe52a4f2a49dce0  /tmp/docker-tars/arm64v8_almalinux_latest-docker_exported.tar
-4874d56e7a680f0c415427c627f3977822c82eb723aa75b0a5836eaf814d9997  /tmp/docker-tars/arm64v8_alpine_latest-docker_exported.tar
-77cfe9068bc4925245029d1ed57bf93b8dac7fcc82304df2ea40f795c863bf1c  /tmp/docker-tars/arm64v8_amazonlinux_latest-docker_exported.tar
-e952e2e1d0b1b408d57037101c2b5a873eaf1f411fb227a4b99c19ea2ffb4033  /tmp/docker-tars/arm64v8_debian_latest-docker_exported.tar
-0e9750d9e9b89a55930947815c16ac624260d123eca042fa6ca5cb85a8eda57c  /tmp/docker-tars/arm64v8_fedora_latest-docker_exported.tar
-77492c7f9d2b93e2163c12abf216e2896554c0df6cbd05930c12afb3c523f84f  /tmp/docker-tars/arm64v8_fedora_rawhide-docker_exported.tar
-bf6aaca3c09c10444895e988bf3c47beb11e0f2d2958cd546d2722a37ae29571  /tmp/docker-tars/arm64v8_oraclelinux_9-docker_exported.tar
-a6410f535e781fee2709e5dab35c412649a92da4dcba226044817232bc8fa7a3  /tmp/docker-tars/arm64v8_oraclelinux_9_slim-docker_exported.tar
-7f228af66c3a2b68fd6c5a38ec589fad4457c7d28e52edbb2a96532eb266a406  /tmp/docker-tars/arm64v8_rockylinux_9-docker_exported.tar
-f32abb44a70a4727fea70ee3f2d3dabb9e500cc88a06eef337e249a27211fed2  /tmp/docker-tars/arm64v8_rockylinux_9_minimal-docker_exported.tar
-835d940afb3e5ad2e51cb0934b5fff66cf46be3a3a3725633499ed9840f10b63  /tmp/docker-tars/arm64v8_ubuntu_latest-docker_exported.tar
-9b16b80e2509294668e0fbd19c1251ac7ae631ea08ab5ce91c58b821450f6786  /tmp/docker-tars/gentoo_stage3_latest-docker_exported.tar
-0db344a9820c3000a7185ed1dc6c22b0ee381a009e099de6a640278b393880f4  /tmp/docker-tars/gentoo_stage3_systemd-docker_exported.tar
-21b1c93bd4cbb95bd316aa30361c4ecce303349c2e2505bdb9cdf108aa5981f3  /tmp/docker-tars/kalilinux_kali_rolling_amd64-docker_exported.tar
-6e91dcc3157f68ef3fd3b791fa1a48c715a32353903c7a007faf0fb2f0b260d9  /tmp/docker-tars/kalilinux_kali_rolling_arm64-docker_exported.tar
-0664162ae425e0f0ced95152822489569cbca7fa1d14c793d065cca3b88f4340  /tmp/docker-tars/opensuse_leap-docker_exported.tar
-fbda0a765c4ee2948fac5a429136bffd4057d3043ce822bfec7231789f7728cd  /tmp/docker-tars/opensuse_tumbleweed-docker_exported.tar
+4c3f00d1ee69d24bf7df994f5fba9c3511688d74142a6595b61f863c6216254f  /tmp/docker-tars/amd64_almalinux_latest-docker_exported.tar
+77674b746be06931a46acf01f2bc2bfbbfa684a513d47a62a9b7d3258315fc48  /tmp/docker-tars/amd64_alpine_latest-docker_exported.tar
+1d1c5d045f7881f3a2baa667ba4bb0fa2955f96408e4c5063c66dc498727cd3c  /tmp/docker-tars/amd64_amazonlinux_latest-docker_exported.tar
+9f674eb4ae6c0f06c3dd73793aa1e1e14da0f222edacf25358e6fbdb4f6a391a  /tmp/docker-tars/amd64_archlinux_latest-docker_exported.tar
+4e0849935072a14ffab3f590ba5f0439308d9e7bbddea240157d54bf48f3b2ef  /tmp/docker-tars/amd64_clearlinux_latest-docker_exported.tar
+86fec6c0141de3bc6d6bcb8ce389aa0f14a6f45e33a96c8d7dddf82eb3e24d59  /tmp/docker-tars/amd64_debian_latest-docker_exported.tar
+bfb5d1ed886e1fe0e76b02e050f6f82daca75e6a93205bab045b71db817e2198  /tmp/docker-tars/amd64_fedora_latest-docker_exported.tar
+a4a48b9e0f0f0ccb31c7186e9ef2d4604d1391b649b52188daef9db4b9f773dc  /tmp/docker-tars/amd64_fedora_rawhide-docker_exported.tar
+21dc4d21e2fbc2d7e7986a7999e384fc072305362974f8abb25f6c19802bf73e  /tmp/docker-tars/amd64_oraclelinux_9-docker_exported.tar
+c539ecb4f6fb13fa5c8bfa0ed1d67cf957f395cfeb18c7ba4808f15ec8b64862  /tmp/docker-tars/amd64_oraclelinux_9_slim-docker_exported.tar
+cdb0f3b534aa452c3172931c8db52d64d5dd40661988b79bdc55ab44d654f8b5  /tmp/docker-tars/amd64_rockylinux_9-docker_exported.tar
+0876cae54ae16ddcf9ac2479e62a66bae5081575d11a39990c7825988f14f627  /tmp/docker-tars/amd64_rockylinux_9_minimal-docker_exported.tar
+2bb816d57135f5a34bbe3b0a4879fa01963538d5a790fdeb91891c854922b5f1  /tmp/docker-tars/amd64_ubuntu_latest-docker_exported.tar
+b979c04c87d80cfc30f11cdd27666762c3b21ff2e65fb4b031f12cf2f2e879ba  /tmp/docker-tars/arm64v8_almalinux_latest-docker_exported.tar
+fd4ac2c92ab74323801475f680c6966fac92a64c79113d103374b01963020187  /tmp/docker-tars/arm64v8_alpine_latest-docker_exported.tar
+d3711b60a99612bf1c01b64f554f9a37dc994bfa8a5414f1ca833e10e295a23e  /tmp/docker-tars/arm64v8_amazonlinux_latest-docker_exported.tar
+ffa4f4fb71b3e61875bf72033076fd5500a7495065e9afa00d6603f980fff465  /tmp/docker-tars/arm64v8_debian_latest-docker_exported.tar
+b7de4eb80982fc8889241fc6cc8b83c4e7f3013768e05a0033bc2ed0c453be7f  /tmp/docker-tars/arm64v8_fedora_latest-docker_exported.tar
+d478369a92fda5ca4cedb609b0fa0fd28e37359da080dc69d3cf72840dc721f4  /tmp/docker-tars/arm64v8_fedora_rawhide-docker_exported.tar
+a6f26bce4dfc13a98864723b4809ebc79a104ee373deead4e40d4899850950dd  /tmp/docker-tars/arm64v8_oraclelinux_9-docker_exported.tar
+aac58d110382c906c0e7af03a2c8a79f605a55594bf8dc3d85a038cbb2379dbf  /tmp/docker-tars/arm64v8_oraclelinux_9_slim-docker_exported.tar
+e1ae6996ba912a82f909ffc3e74324c073100a66355ac3eb9a59112fc675e190  /tmp/docker-tars/arm64v8_rockylinux_9-docker_exported.tar
+5eb5e26d2ef9a3eb9c2ad815f8fb546908e0bf133d5b217de981fa4f2b2d502d  /tmp/docker-tars/arm64v8_rockylinux_9_minimal-docker_exported.tar
+e5b99c2b17f15c976fb818012e0d5fe5df46b0ff922a6a1e5613a3db0269bb2d  /tmp/docker-tars/arm64v8_ubuntu_latest-docker_exported.tar
+92574fe18b92ecf1a19219cfa873fa3e3807522e5ed50b5519e3159a0a6acaf0  /tmp/docker-tars/gentoo_stage3_latest-docker_exported.tar
+f967e56ae9a49cf19248261211424b16d2c37fa930ebba1180bf5510722da482  /tmp/docker-tars/gentoo_stage3_systemd-docker_exported.tar
+ffc5ccc0cfb51e3117cdc8abe7e655386994c9f39f86b4fc5ad5d4a01bac4d3f  /tmp/docker-tars/kalilinux_kali_rolling_amd64-docker_exported.tar
+060eaf0d13e93c263a2b29c9bce28db0584dbb8de061899995bac926b8c3dcad  /tmp/docker-tars/kalilinux_kali_rolling_arm64-docker_exported.tar
+0be5db6417b7a959e51c8b57684cacd7e132fa22b450de048cb9614238787a2d  /tmp/docker-tars/opensuse_leap-docker_exported.tar
+b65aed4e8042bb1af4320c35cda73b69de66ede16a4057d1f0479c67bcfd9147  /tmp/docker-tars/opensuse_tumbleweed-docker_exported.tar
 
 ```
 
